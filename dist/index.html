@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Template 1</title>
+     <!-- Meta SEO -->
+     <meta name="title" content="Landwind - Tailwind CSS Landing Page">
+     <meta name="description" content="Get started with a free and open-source landing page built with Tailwind CSS and the Flowbite component library.">
+     <meta name="robots" content="index, follow">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <meta name="language" content="English">
+     <meta name="author" content="Themesberg">
+</head>
+<body>
+    <header class="fixed w-full">
+        <nav class="flex justify-between items-center px-3">
+            <a href="#" class="flex px-4 py-3 gap-3 items-center">
+                <img src="../images/logo.svg" alt="Logo icon">
+                <span class="font-medium text-xl">Landwind</span>
+            </a>
+            <ul id="menu-list" class="menu-list bg-slate-200 rounded-lg fixed top-16 left-0 text-lg m-4 right-2 transition-all duration-300 lg:bg-inherit lg:flex lg:flex-row lg:static font-medium lg:gap-4 ">
+                <li class="py-2 rounded-lg hover:bg-purple-800 hover:cursor-pointer px-2 hover:text-white transition duration-300">Home</li>
+                <li class="py-2 rounded-lg hover:bg-purple-800 hover:cursor-pointer px-2 hover:text-white transition duration-300">Company</li>
+                <li class="py-2 rounded-lg hover:bg-purple-800 hover:cursor-pointer px-2 hover:text-white transition duration-300">Marketplace</li>
+                <li class="py-2 rounded-lg hover:bg-purple-800 hover:cursor-pointer px-2 hover:text-white transition duration-300">Features</li>
+                <li class="py-2 rounded-lg hover:bg-purple-800 hover:cursor-pointer px-2 hover:text-white transition duration-300">Team</li>
+                <li class="py-2 rounded-lg hover:bg-purple-800 hover:cursor-pointer px-2 hover:text-white transition duration-300">Contact</li>
+            </ul>
+            <div class="flex gap-4 items-center">
+                <div class="hidden lg:flex border border-slate-300 divide-x divide-slate-300 rounded-md leading-7 h-7 ">
+                    <div class="px-2 flex items-center gap-1"><img src="../images/star.png" alt="" class="w-4 h-4"> Star</div>
+                    <div class="px-2">365</div>
+                </div>
+                <button class="bg-purple-600 hover:bg-purple-800 text-white px-3 lg:px-4 py-2 rounded-lg font-semibold">Download</button>
+                <button class="lg:hidden menu-btn border-2 rounded-lg p-2" id="menu-btn" >
+                    <img src="../images/hamburger.png" alt="" >
+                </button>
+            </div>
+            
+        </nav>
+    </header>
+    <script src="main.js"></script>
+</body>
+</html>
